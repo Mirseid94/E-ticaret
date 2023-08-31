@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.inner-container {
+    width: 30%;
+    height: 450px;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+.inner-container:hover {
+    box-shadow: -4px -4px 30px 22px rgba(0, 0, 0, 0.75);
+}
+
+.inner-container img {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.inner-container h1 {
+    color: red;
+    font-size: 25px;
+}
+
+.inner-container p {
+    font-size: 20px;
+}
+
+.container {
+    height: 30px;
+}
+
+.btn-container {
+    padding: 5px 18px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    transition: 0.8s;
+}
+
+.btn-container:hover {
+    background-color: white;
+    color: black;
+}
+
+.inner-inner-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    position: relative;
+}
+
+.inner-inner-container h1 {
+    color: white;
+    font-size: 25px;
+}
+
+.inner-inner-container p {
+    color: white;
+    font-size: 18px;
+}
+
+.inner-inner-container img {
+    width: 20%;
+}
+
+#sebet_container {
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    background-color: red;
+    display: none;
+}
+
+.remove-icon {
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+#rakam_p {
+    position: absolute;
+    right: 115px;
+    top: 0px;
+    background-color: red;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+#rakam_p p {
+    color: white;
+}
